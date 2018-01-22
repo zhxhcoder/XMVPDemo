@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.mvp.main;
+package com.android.cy.mvpdemo.mvp.other;
 
 public interface BaseView {
     void showLoading();

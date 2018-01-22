@@ -23,7 +23,6 @@ public class MainPresenter extends BasePresenter<MainView> {
                         mvpView.getDataFail(msg);
                     }
 
-
                     @Override
                     public void onFinish() {
                         mvpView.hideLoading();

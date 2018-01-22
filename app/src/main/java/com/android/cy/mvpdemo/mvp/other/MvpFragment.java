@@ -4,7 +4,7 @@ package com.android.cy.mvpdemo.mvp.other;
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.cy.mvpdemo.ui.BaseFragment;
+import com.android.cy.mvpdemo.ui.base.BaseFragment;
 
 public abstract class MvpFragment<P extends BasePresenter> extends BaseFragment {
     protected P mvpPresenter;

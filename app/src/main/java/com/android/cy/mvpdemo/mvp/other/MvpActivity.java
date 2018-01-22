@@ -2,7 +2,7 @@ package com.android.cy.mvpdemo.mvp.other;
 
 import android.os.Bundle;
 
-import com.android.cy.mvpdemo.ui.BaseActivity;
+import com.android.cy.mvpdemo.ui.base.BaseActivity;
 
 public abstract class MvpActivity<P extends BasePresenter> extends BaseActivity {
     protected P mvpPresenter;

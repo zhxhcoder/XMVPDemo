@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.ui;
+package com.android.cy.mvpdemo.ui.base;
 
 import android.app.Activity;
 import android.app.ProgressDialog;

@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.ui;
+package com.android.cy.mvpdemo.ui.base;
 
 
 import android.app.Activity;
@@ -17,7 +17,6 @@ import rx.subscriptions.CompositeSubscription;
 
 public class BaseFragment extends Fragment {
     public Activity mActivity;
-
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {

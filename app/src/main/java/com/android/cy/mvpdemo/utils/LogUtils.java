@@ -29,6 +29,7 @@ public class LogUtils {
 
     /**
      * 输出警告信息
+     *
      * @param tag 错误信息标识
      * @param msg 错误信息
      */
@@ -42,6 +43,7 @@ public class LogUtils {
 
     /**
      * 输出普通信息
+     *
      * @param tag 普通信息
      * @param msg 异常信息
      */

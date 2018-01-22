@@ -13,8 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.cy.mvpdemo.R;
-import com.android.cy.mvpdemo.retrofit.ApiStores;
 import com.android.cy.mvpdemo.retrofit.ApiClient;
+import com.android.cy.mvpdemo.retrofit.ApiStores;
 import com.android.cy.mvpdemo.utils.LogUtils;
 
 import java.util.ArrayList;

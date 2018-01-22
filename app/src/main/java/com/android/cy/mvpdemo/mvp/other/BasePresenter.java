@@ -22,12 +22,12 @@ public class BasePresenter<V> {
 
     public void detachView() {
         this.mvpView = null;
-        onUnsubscribe();
+        onUnSubscribe();
     }
 
 
     //RXjava取消注册，以避免内存泄露
-    public void onUnsubscribe() {
+    public void onUnSubscribe() {
         if (mCompositeSubscription != null && mCompositeSubscription.hasSubscriptions()) {
             mCompositeSubscription.unsubscribe();
         }

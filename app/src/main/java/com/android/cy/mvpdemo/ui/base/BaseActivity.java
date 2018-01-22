@@ -86,7 +86,6 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
-
     public void addSubscription(Observable observable, Subscriber subscriber) {
         if (mCompositeSubscription == null) {
             mCompositeSubscription = new CompositeSubscription();
@@ -116,8 +115,8 @@ public class BaseActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
             setSupportActionBar(toolbar);
-            TextView toolbaTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-            toolbaTitle.setText(title);
+            TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+            toolbarTitle.setText(title);
         }
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
@@ -132,8 +131,8 @@ public class BaseActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         if (toolbar != null) {
             setSupportActionBar(toolbar);
-            TextView toolbaTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
-            toolbaTitle.setText(title);
+            TextView toolbarTitle = (TextView) toolbar.findViewById(R.id.toolbar_title);
+            toolbarTitle.setText(title);
         }
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {

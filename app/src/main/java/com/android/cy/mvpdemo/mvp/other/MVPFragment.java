@@ -6,7 +6,7 @@ import android.view.View;
 
 import com.android.cy.mvpdemo.ui.base.BaseFragment;
 
-public abstract class MvpFragment<P extends BasePresenter> extends BaseFragment {
+public abstract class MVPFragment<P extends BasePresenter> extends BaseFragment {
     protected P mvpPresenter;
 
     @Override

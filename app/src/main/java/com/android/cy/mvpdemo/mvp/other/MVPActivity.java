@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import com.android.cy.mvpdemo.ui.base.BaseActivity;
 
-public abstract class MvpActivity<P extends BasePresenter> extends BaseActivity {
+public abstract class MVPActivity<P extends BasePresenter> extends BaseActivity {
     protected P mvpPresenter;
 
     @Override

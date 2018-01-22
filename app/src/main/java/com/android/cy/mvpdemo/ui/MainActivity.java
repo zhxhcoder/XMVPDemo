@@ -8,7 +8,7 @@ import com.android.cy.mvpdemo.R;
 import com.android.cy.mvpdemo.mvp.main.MainModel;
 import com.android.cy.mvpdemo.mvp.main.MainPresenter;
 import com.android.cy.mvpdemo.mvp.main.MainView;
-import com.android.cy.mvpdemo.mvp.other.MvpActivity;
+import com.android.cy.mvpdemo.mvp.other.MVPActivity;
 import com.android.cy.mvpdemo.retrofit.ApiCallback;
 import com.android.cy.mvpdemo.retrofit.RetrofitCallback;
 
@@ -17,7 +17,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import retrofit2.Call;
 
-public class MainActivity extends MvpActivity<MainPresenter> implements MainView {
+public class MainActivity extends MVPActivity<MainPresenter> implements MainView {
 
     @Bind(R.id.text)
     TextView text;

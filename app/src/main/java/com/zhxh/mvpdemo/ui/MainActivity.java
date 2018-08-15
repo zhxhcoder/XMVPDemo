@@ -1,16 +1,16 @@
-package com.android.cy.mvpdemo.ui;
+package com.zhxh.mvpdemo.ui;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.android.cy.mvpdemo.R;
-import com.android.cy.mvpdemo.mvp.main.MainModel;
-import com.android.cy.mvpdemo.mvp.main.MainPresenter;
-import com.android.cy.mvpdemo.mvp.main.MainView;
-import com.android.cy.mvpdemo.mvp.other.MVPActivity;
-import com.android.cy.mvpdemo.retrofit.ApiCallback;
-import com.android.cy.mvpdemo.retrofit.RetrofitCallback;
+import com.zhxh.mvpdemo.R;
+import com.zhxh.mvpdemo.mvp.main.MainModel;
+import com.zhxh.mvpdemo.mvp.main.MainPresenter;
+import com.zhxh.mvpdemo.mvp.main.MainView;
+import com.zhxh.mvpdemo.mvp.other.MVPActivity;
+import com.zhxh.mvpdemo.retrofit.ApiCallback;
+import com.zhxh.mvpdemo.retrofit.RetrofitCallback;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

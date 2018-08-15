@@ -1,7 +1,7 @@
-package com.android.cy.mvpdemo.retrofit;
+package com.zhxh.mvpdemo.retrofit;
 
 
-import com.android.cy.mvpdemo.utils.LogUtils;
+import com.zhxh.mvpdemo.utils.LogUtils;
 
 import retrofit2.adapter.rxjava.HttpException;
 import rx.Subscriber;

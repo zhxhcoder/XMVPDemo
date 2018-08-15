@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.ui.base;
+package com.zhxh.mvpdemo.ui.base;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -12,10 +12,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.cy.mvpdemo.R;
-import com.android.cy.mvpdemo.retrofit.ApiClient;
-import com.android.cy.mvpdemo.retrofit.ApiStores;
-import com.android.cy.mvpdemo.utils.LogUtils;
+import com.zhxh.mvpdemo.R;
+import com.zhxh.mvpdemo.retrofit.ApiClient;
+import com.zhxh.mvpdemo.retrofit.ApiStores;
+import com.zhxh.mvpdemo.utils.LogUtils;
 
 import java.util.ArrayList;
 import java.util.List;

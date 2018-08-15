@@ -1,6 +1,6 @@
-package com.android.cy.mvpdemo.retrofit;
+package com.zhxh.mvpdemo.retrofit;
 
-import com.android.cy.mvpdemo.mvp.main.MainModel;
+import com.zhxh.mvpdemo.mvp.main.MainModel;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

@@ -1,7 +1,7 @@
-package com.android.cy.mvpdemo.mvp.other;
+package com.zhxh.mvpdemo.mvp.other;
 
-import com.android.cy.mvpdemo.retrofit.ApiClient;
-import com.android.cy.mvpdemo.retrofit.ApiStores;
+import com.zhxh.mvpdemo.retrofit.ApiClient;
+import com.zhxh.mvpdemo.retrofit.ApiStores;
 
 import rx.Observable;
 import rx.Subscriber;

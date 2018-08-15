@@ -1,10 +1,10 @@
-package com.android.cy.mvpdemo.mvp.other;
+package com.zhxh.mvpdemo.mvp.other;
 
 
 import android.os.Bundle;
 import android.view.View;
 
-import com.android.cy.mvpdemo.ui.base.BaseFragment;
+import com.zhxh.mvpdemo.ui.base.BaseFragment;
 
 public abstract class MVPFragment<P extends BasePresenter> extends BaseFragment {
     protected P mvpPresenter;

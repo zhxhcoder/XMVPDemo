@@ -1,6 +1,6 @@
-package com.android.cy.mvpdemo.retrofit;
+package com.zhxh.mvpdemo.retrofit;
 
-import com.android.cy.mvpdemo.BuildConfig;
+import com.zhxh.mvpdemo.BuildConfig;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;

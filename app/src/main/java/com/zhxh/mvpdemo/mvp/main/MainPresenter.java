@@ -1,7 +1,7 @@
-package com.android.cy.mvpdemo.mvp.main;
+package com.zhxh.mvpdemo.mvp.main;
 
-import com.android.cy.mvpdemo.mvp.other.BasePresenter;
-import com.android.cy.mvpdemo.retrofit.ApiCallback;
+import com.zhxh.mvpdemo.mvp.other.BasePresenter;
+import com.zhxh.mvpdemo.retrofit.ApiCallback;
 
 public class MainPresenter extends BasePresenter<MainView> {
 

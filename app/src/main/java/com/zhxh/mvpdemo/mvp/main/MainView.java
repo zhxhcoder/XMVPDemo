@@ -1,6 +1,6 @@
-package com.android.cy.mvpdemo.mvp.main;
+package com.zhxh.mvpdemo.mvp.main;
 
-import com.android.cy.mvpdemo.mvp.other.BaseView;
+import com.zhxh.mvpdemo.mvp.other.BaseView;
 
 public interface MainView extends BaseView {
 

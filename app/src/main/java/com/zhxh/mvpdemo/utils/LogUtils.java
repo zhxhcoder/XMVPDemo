@@ -1,8 +1,8 @@
-package com.android.cy.mvpdemo.utils;
+package com.zhxh.mvpdemo.utils;
 
 import android.util.Log;
 
-import com.android.cy.mvpdemo.BuildConfig;
+import com.zhxh.mvpdemo.BuildConfig;
 
 /********************************************************************
  *[Function]日志消息处理类：异常|警告|成功 							*

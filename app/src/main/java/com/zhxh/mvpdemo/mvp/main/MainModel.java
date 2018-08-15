@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.mvp.main;
+package com.zhxh.mvpdemo.mvp.main;
 
 public class MainModel {
 

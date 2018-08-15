@@ -1,4 +1,4 @@
-package com.android.cy.mvpdemo.ui.base;
+package com.zhxh.mvpdemo.ui.base;
 
 
 import android.app.Activity;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.android.cy.mvpdemo.R;
+import com.zhxh.mvpdemo.R;
 
 import butterknife.ButterKnife;
 import rx.Subscription;

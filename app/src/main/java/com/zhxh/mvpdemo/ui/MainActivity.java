@@ -12,14 +12,14 @@ import com.zhxh.mvpdemo.mvp.other.MVPActivity;
 import com.zhxh.mvpdemo.retrofit.ApiCallback;
 import com.zhxh.mvpdemo.retrofit.RetrofitCallback;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import retrofit2.Call;
 
 public class MainActivity extends MVPActivity<MainPresenter> implements MainView {
 
-    @Bind(R.id.text)
+    @BindView(R.id.text)
     TextView text;
 
     @Override

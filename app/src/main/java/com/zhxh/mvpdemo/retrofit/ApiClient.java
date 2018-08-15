@@ -9,7 +9,7 @@ import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient {
-    public static Retrofit mRetrofit;
+    private static Retrofit mRetrofit;
 
     public static Retrofit retrofit() {
         if (mRetrofit == null) {

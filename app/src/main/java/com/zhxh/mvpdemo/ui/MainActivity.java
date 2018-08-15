@@ -17,10 +17,33 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import retrofit2.Call;
 
-public class MainActivity extends MVPActivity<MainPresenter> implements MainView {
+public class MainActivity extends MVPActivity<MainPresenter> {
 
     @BindView(R.id.text)
     TextView text;
+
+
+    private MainView mainView = new MainView() {
+        @Override
+        public void getDataSuccess(MainModel model) {
+            //接口成功回调
+            dataSuccess(model);
+        }
+
+        @Override
+        public void getDataFail(String msg) {
+            toastShow("网络不给力");
+        }
+
+        @Override
+        public void showLoading() {
+        }
+
+        @Override
+        public void hideLoading() {
+        }
+    };
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,19 +55,7 @@ public class MainActivity extends MVPActivity<MainPresenter> implements MainView
 
     @Override
     protected MainPresenter createPresenter() {
-        return new MainPresenter(this);
-    }
-
-
-    @Override
-    public void getDataSuccess(MainModel model) {
-        //接口成功回调
-        dataSuccess(model);
-    }
-
-    @Override
-    public void getDataFail(String msg) {
-        toastShow("网络不给力");
+        return new MainPresenter(mainView);
     }
 
 

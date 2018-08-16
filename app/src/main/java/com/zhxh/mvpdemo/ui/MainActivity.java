@@ -105,7 +105,7 @@ public class MainActivity extends MVPActivity<MainPresenter> {
     //全国+国外主要城市代码http://mobile.weather.com.cn/js/citylist.xml
     private void loadDataByRetrofitRxjava() {
         showProgressDialog();
-        addSubscription(apiStores().loadDataByRetrofitRxjava("101280601"),
+        addSubscription(apiStores().loadDataByRetrofitRxJava("101280601"),
                 new ApiCallback<MainModel>() {
                     @Override
                     public void onSuccess(MainModel model) {

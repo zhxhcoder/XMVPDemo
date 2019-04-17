@@ -4,14 +4,14 @@ package com.zhxh.mvpdemo.ui.main.video;
 import com.zhxh.corelibs.mvp.IModel;
 import com.zhxh.corelibs.mvp.IView;
 import com.zhxh.corelibs.net.BaseHttpResult;
-import com.hazz.example.data.entity.TestNews;
+import com.zhxh.mvpdemo.data.entity.TestNews;
 
 import java.util.List;
 
 import io.reactivex.Observable;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/12 22:57
  * @desc 契约类
  */

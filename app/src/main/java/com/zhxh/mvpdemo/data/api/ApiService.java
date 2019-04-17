@@ -1,6 +1,6 @@
 package com.zhxh.mvpdemo.data.api;
 
-import com.hazz.example.data.entity.TestNews;
+import com.zhxh.mvpdemo.data.entity.TestNews;
 import com.zhxh.corelibs.net.BaseHttpResult;
 
 import java.util.List;
@@ -9,7 +9,7 @@ import io.reactivex.Observable;
 import retrofit2.http.GET;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/11 23:04
  * @desc
  */

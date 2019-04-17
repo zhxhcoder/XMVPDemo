@@ -7,7 +7,7 @@ import com.zhxh.corelibs.app.BaseApplication;
 import com.zhxh.corelibs.utils.CommonUtils;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/10 16:20
  * @desc
  */

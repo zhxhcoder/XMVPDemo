@@ -10,9 +10,9 @@ import android.widget.TextView;
 import com.zhxh.corelibs.base.BaseFragment;
 import com.zhxh.corelibs.rx.RxBus;
 import com.zhxh.corelibs.utils.ToastUtils;
-import com.hazz.example.R;
-import com.hazz.example.data.entity.TestNews;
-import com.hazz.example.event.TestEvent;
+import com.zhxh.mvpdemo.R;
+import com.zhxh.mvpdemo.data.entity.TestNews;
+import com.zhxh.mvpdemo.event.TestEvent;
 
 import java.util.List;
 
@@ -24,7 +24,7 @@ import io.reactivex.functions.Consumer;
 
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/12 22:57
  * @desc 首页
  */

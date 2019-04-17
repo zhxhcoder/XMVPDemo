@@ -3,7 +3,7 @@ package com.zhxh.mvpdemo.data.entity;
 import java.util.List;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/12 16:10
  * @desc
  */

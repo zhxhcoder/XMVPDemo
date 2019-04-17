@@ -3,11 +3,11 @@ package com.zhxh.mvpdemo.ui.main.mine;
 import android.os.Bundle;
 
 import com.zhxh.corelibs.base.BaseFragment;
-import com.hazz.example.R;
+import com.zhxh.mvpdemo.R;
 
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/12 22:57
  * @desc 我的
  */

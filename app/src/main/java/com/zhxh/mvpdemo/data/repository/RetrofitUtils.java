@@ -1,10 +1,10 @@
 package com.zhxh.mvpdemo.data.repository;
 
 import com.zhxh.corelibs.net.BaseRetrofit;
-import com.hazz.example.data.api.ApiService;
+import com.zhxh.mvpdemo.data.api.ApiService;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/11 23:02
  * @desc 网络请求管理类
  */

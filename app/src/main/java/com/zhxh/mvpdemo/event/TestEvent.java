@@ -1,7 +1,7 @@
 package com.zhxh.mvpdemo.event;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/13 16:26
  * @desc
  */

@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import com.zhxh.corelibs.base.BaseFragment;
 import com.zhxh.corelibs.rx.RxBus;
-import com.hazz.example.R;
-import com.hazz.example.event.TestEvent;
+import com.zhxh.mvpdemo.R;
+import com.zhxh.mvpdemo.event.TestEvent;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -17,7 +17,7 @@ import butterknife.Unbinder;
 import io.reactivex.functions.Consumer;
 
 /**
- * @author xuhao
+ * @author zhxh
  * @date 2018/6/12 22:57
  * @desc 我的
  */

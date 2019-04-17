@@ -36,5 +36,4 @@ public class App extends BaseApplication {
 //        strategy.setUploadProcess(processName == null || processName.equals(packageName));
 //        CrashReport.initCrashReport(getApplicationContext(), MyConstants.BUGLY_ID, false, strategy);
     }
-
 }

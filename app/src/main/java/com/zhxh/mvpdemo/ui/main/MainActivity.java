@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
-import android.widget.Button;
 import android.widget.FrameLayout;
-import android.widget.TextView;
 
 import com.flyco.tablayout.CommonTabLayout;
 import com.flyco.tablayout.listener.CustomTabEntity;
@@ -16,7 +14,6 @@ import com.zhxh.corelibs.utils.LogUtils;
 import com.zhxh.mvpdemo.R;
 import com.zhxh.mvpdemo.data.entity.TabEntity;
 import com.zhxh.mvpdemo.data.entity.TestNews;
-import com.zhxh.corelibs.utils.ToastUtils;
 import com.zhxh.mvpdemo.ui.main.home.HomeFragment;
 import com.zhxh.mvpdemo.ui.main.mine.MineFragment;
 import com.zhxh.mvpdemo.ui.main.video.VideoFragment;
@@ -27,7 +24,6 @@ import java.util.List;
 import butterknife.BindView;
 
 public class MainActivity extends BaseMvpActivity<MainPresenter> implements MainContract.View {
-
 
     private HomeFragment mHomeFragment;
     private VideoFragment mVideoFragment;
@@ -106,7 +102,6 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
 
     }
 
-
     /**
      * 初始化底部菜单
      */
@@ -184,7 +179,6 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
         mCurrIndex = position;
         tabLayout.setCurrentTab(mCurrIndex);
         transaction.commitAllowingStateLoss();
-
     }
 
     /**
@@ -202,7 +196,6 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
         if (null != mMineFragment) {
             transaction.hide(mMineFragment);
         }
-
     }
 
     @Override
@@ -215,11 +208,9 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
         }
     }
 
-
     @Override
     protected void onResume() {
         super.onResume();
     }
-
 
 }

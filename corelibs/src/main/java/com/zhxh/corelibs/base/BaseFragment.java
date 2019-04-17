@@ -27,7 +27,6 @@ import butterknife.Unbinder;
  * @desc fragment 基类
  */
 public abstract class BaseFragment<T extends BasePresenter> extends RxFragment implements IView {
-
     /**
      * 将代理类通用行为抽出来
      */
@@ -35,7 +34,7 @@ public abstract class BaseFragment<T extends BasePresenter> extends RxFragment i
 
     private Unbinder unBinder;
 
-    private BaseActivity mActivity;
+    protected BaseActivity mActivity;
     /**
      * 缓存Fragment view
      */

@@ -1,6 +1,5 @@
 package com.zhxh.mvpdemo.ui.main.home;
 
-
 import com.zhxh.corelibs.mvp.BasePresenter;
 import com.zhxh.corelibs.net.BaseHttpResult;
 import com.zhxh.corelibs.net.BaseObserver;

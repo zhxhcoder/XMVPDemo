@@ -3,7 +3,7 @@ package com.zhxh.corelibs.net;
 import com.zhxh.corelibs.app.AppConfig;
 import com.zhxh.corelibs.app.BaseApplication;
 import com.zhxh.corelibs.net.converter.GsonConverterBodyFactory;
-import com.zhxh.corelibs.net.interceptor.CaheInterceptor;
+import com.zhxh.corelibs.net.interceptor.CacheInterceptor;
 import com.zhxh.corelibs.utils.cache.CacheManager;
 
 import java.io.File;
@@ -72,7 +72,7 @@ public class BaseRetrofit {
                             .addInterceptor(httpLoggingInterceptor) //日志,所有的请求响应
 //                            .addInterceptor(new HeaderInterceptor(getRequestHeader())) // token过滤
 //                            .addInterceptor(new ParameterInterceptor(getRequestParams()))  //公共参数添加
-                            .addInterceptor(new CaheInterceptor(BaseApplication.getContext()))
+                            .addInterceptor(new CacheInterceptor(BaseApplication.getContext()))
                             //不加以下两行代码,https请求不到自签名的服务器
                             .sslSocketFactory(createSSLSocketFactory())//创建一个证书对象
                             .hostnameVerifier(new TrustAllHostnameVerifier())//校验名称,这个对象就是信任所有的主机,也就是信任所有https的请求

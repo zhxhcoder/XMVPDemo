@@ -16,6 +16,6 @@ import retrofit2.http.GET;
 public interface ApiService {
 
     @GET("api/data/Android/10/1")
-    Observable<BaseHttpResult<List<TestNews>>> getGankData();
+    Observable<BaseHttpResult<List<TestNews>>> getTestData();
 
 }

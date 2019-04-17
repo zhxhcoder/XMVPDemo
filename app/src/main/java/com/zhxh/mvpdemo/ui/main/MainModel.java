@@ -18,6 +18,6 @@ public class MainModel extends BaseModel implements MainContract.Model{
 
     @Override
     public Observable<BaseHttpResult<List<TestNews>>> getGankData() {
-        return RetrofitUtils.getHttpService().getGankData();
+        return RetrofitUtils.getHttpService().getTestData();
     }
 }

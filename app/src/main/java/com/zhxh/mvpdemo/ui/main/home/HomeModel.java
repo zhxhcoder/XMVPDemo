@@ -17,6 +17,6 @@ import io.reactivex.Observable;
 public class HomeModel extends BaseModel implements HomeContract.Model {
     @Override
     public Observable<BaseHttpResult<List<TestNews>>> getGankData() {
-        return RetrofitUtils.getHttpService().getGankData();
+        return RetrofitUtils.getHttpService().getTestData();
     }
 }

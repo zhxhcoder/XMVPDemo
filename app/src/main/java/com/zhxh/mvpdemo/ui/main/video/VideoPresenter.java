@@ -14,14 +14,14 @@ import java.util.List;
  * @date 2018/6/12 22:57
  * @desc
  */
-public class VideoPresenter extends BasePresenter<VideoContract.Model,VideoContract.View> {
+public class VideoPresenter extends BasePresenter<VideoContract.Model, VideoContract.View> {
     @Override
     protected VideoContract.Model createModel() {
         return new VideoModel();
     }
 
 
-    public void requestData(){
+    public void requestData() {
 
     }
 }

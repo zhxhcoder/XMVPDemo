@@ -68,7 +68,8 @@ public class HomeFragment extends BaseFragment<HomePresenter> implements HomeCon
     protected void initListener() {
         button.setOnClickListener(v -> mPresenter.requestData());
         button2.setOnClickListener(v -> {
-            RxBus.getDefault().post(new TestEvent(1,"RxBus post test data from homeFragment"));});
+            RxBus.getDefault().post(new TestEvent(1, "RxBus post test data from homeFragment"));
+        });
     }
 
     @Override

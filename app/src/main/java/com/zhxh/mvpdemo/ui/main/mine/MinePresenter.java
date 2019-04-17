@@ -14,14 +14,14 @@ import java.util.List;
  * @date 2018/6/12 22:57
  * @desc
  */
-public class MinePresenter extends BasePresenter<MineContract.Model,MineContract.View> {
+public class MinePresenter extends BasePresenter<MineContract.Model, MineContract.View> {
     @Override
     protected MineContract.Model createModel() {
         return new MineModel();
     }
 
 
-    public void requestData(){
+    public void requestData() {
 
     }
 }

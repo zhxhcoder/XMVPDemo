@@ -62,8 +62,8 @@ public class VideoFragment extends BaseFragment<VideoPresenter> {
                 .subscribe(new Consumer<TestEvent>() {
                     @Override
                     public void accept(TestEvent testEvent) throws Exception {
-                        if(testEvent!=null){
-                            textView.setText(testEvent.getId()+":"+testEvent.getName());
+                        if (testEvent != null) {
+                            textView.setText(testEvent.getId() + ":" + testEvent.getName());
                         }
                     }
                 }, new Consumer<Throwable>() {

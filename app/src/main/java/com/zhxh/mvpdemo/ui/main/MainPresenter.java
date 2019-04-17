@@ -14,7 +14,7 @@ import java.util.List;
  * @date 2018/6/12 16:18
  * @desc
  */
-public class MainPresenter extends BasePresenter<MainContract.Model,MainContract.View>  {
+public class MainPresenter extends BasePresenter<MainContract.Model, MainContract.View> {
 
     @Override
     protected MainContract.Model createModel() {
@@ -24,7 +24,6 @@ public class MainPresenter extends BasePresenter<MainContract.Model,MainContract
     public void requestData() {
 
     }
-
 
 
 }

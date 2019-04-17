@@ -23,6 +23,7 @@ public class MineFragment extends BaseFragment<MinePresenter> {
         fragment.mTitle = title;
         return fragment;
     }
+
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_mine;

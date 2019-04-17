@@ -22,7 +22,7 @@ public interface MainContract {
         void showData(List<TestNews> testNews);
     }
 
-    interface Model extends IModel{
+    interface Model extends IModel {
 
         Observable<BaseHttpResult<List<TestNews>>> getGankData();
     }

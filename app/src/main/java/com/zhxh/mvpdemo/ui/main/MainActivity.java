@@ -133,7 +133,7 @@ public class MainActivity extends BaseMvpActivity<MainPresenter> implements Main
 
         tabLayout.showDot(0);
 
-        tabLayout.showMsg(1,100);
+        tabLayout.showMsg(1, 100);
     }
 
     /**

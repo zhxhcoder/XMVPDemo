@@ -14,14 +14,14 @@ import java.util.List;
  * @date 2018/6/12 22:57
  * @desc
  */
-public class HomePresenter extends BasePresenter<HomeContract.Model,HomeContract.View> {
+public class HomePresenter extends BasePresenter<HomeContract.Model, HomeContract.View> {
     @Override
     protected HomeContract.Model createModel() {
         return new HomeModel();
     }
 
 
-    public void requestData(){
+    public void requestData() {
         getModel().getGankData()
                 .compose(RxSchedulers.applySchedulers(getLifecycleProvider()))
                 .subscribe(new BaseObserver<List<TestNews>>(getView()) {

@@ -11,8 +11,7 @@ import com.zhxh.corelibs.utils.CommonUtils;
  * @date 2018/6/10 16:20
  * @desc
  */
-public class App extends BaseApplication{
-
+public class App extends BaseApplication {
 
     @Override
     protected void attachBaseContext(Context base) {
@@ -26,8 +25,6 @@ public class App extends BaseApplication{
         //Bugly
         initBugly();
     }
-
-
 
     private void initBugly() {
         // 获取当前包名

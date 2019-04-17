@@ -39,7 +39,6 @@ dependencies {
     api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.2'
     /*view依赖注入*/
     api 'com.jakewharton:butterknife:8.8.1'
-    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     /*网络请求框架*/
     api 'com.squareup.retrofit2:retrofit:2.5.0'
     api 'com.squareup.retrofit2:converter-gson:2.4.0'
